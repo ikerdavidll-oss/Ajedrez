@@ -207,7 +207,7 @@ function initBoard() {
   historyStack = []; moveLog = []; gameOver = false; pendingPromo = null;
   premove = null; arrows = []; dragArrowStart = null;
 
-  const backRank = ['R', 'N', 'U', 'B', 'K', 'Q', 'B', 'U', 'N', 'R'];
+  const backRank = ['R', 'N', 'U', 'B', 'Q', 'K', 'B', 'U', 'N', 'R'];
 
   for (let c = 0; c < COLS; c++) {
     const mr = maxRows(c);
